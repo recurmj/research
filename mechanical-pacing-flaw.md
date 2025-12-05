@@ -120,6 +120,17 @@ This acted as *external drag*, not an architectural pacing layer.
 
 Crypto still executes **everything synchronously**, regardless of regulation.
 
+## 6.1 Removal of External Drag Reveals the Underlying Flaw
+
+As regulatory constraints loosen and real-time settlement infrastructure expands,
+the system increasingly operates at its natural speed. Because crypto architectures
+couple intent, execution, and state into a single synchronous step, operating at
+full speed makes the system more reflexive, not more stable.
+
+The external pacing that once dampened reflexivity is diminishing, making the
+structural coupling flaw more visible; not because conditions worsened, but because
+the architecture is now exposed without external drag forces.
+
 ---
 
 ## 7. What a Real Fix Looks Like
@@ -165,7 +176,7 @@ This introduces **programmable pacing**, allowing liquidity to move:
 - without custodial intermediaries  
 - without reactive execution loops  
 
-This doesn’t fix everything — but it **removes the root coupling flaw**.
+This doesn’t fix everything, but it **removes the root coupling flaw**.
 
 ---
 
