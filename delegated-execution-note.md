@@ -89,9 +89,7 @@ Importantly, the authorization object:
 - can be evaluated independently
 - can be revoked without trusting the executor
 
-Authorization objects are **not credentials**.  
-They do not grant possession-based power.  
-They grant **conditional permission evaluated per action**.
+Authorization objects are **not credentials**. They do not grant possession-based power. They grant **conditional permission evaluated per action**.
 
 ---
 
